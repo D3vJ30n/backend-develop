@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>시스템 환경정보</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: solid 1px #000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>시스템 속성 정보</h1>
+    <table>
+        <tr>
+            <th>키</th>
+            <th>값</th>
+        </tr>
+        <tr>
+            <td>java.specification.version</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>sun.cpu.isalist</td>
+            <td>amd64</td>
+        </tr>
+        <tr>
+            <td>sun.jnu.encoding</td>
+            <td>MS949</td>
+        </tr>
+        <tr>
+            <td>java.class.path</td>
+            <td>C:\Users\user\Desktop\spb\demo\demo\out\production\classes;C:\Users\user\Desktop\spb\demo\demo\out\production\resources;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-thymeleaf\3.3.4\29c4b1acf955b350bf7d8fd201798d30647fb89e\spring-boot-starter-thymeleaf-3.3.4.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-web\3.3.4\b43a9fd107611337777b47dc7518e2aca59e58eb\spring-boot-starter-web-3.3.4.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter\3.3.4\f02312a6816fb439a55d2920b9af8f0f8abf5bac\spring-boot-starter-3.3.4.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.thymeleaf\thymeleaf-spring6\3.1.2.RELEASE\6030c7b4e260c41336f378e53da6e8531263f24b\thymeleaf-spring6-3.1.2.RELEASE.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-json\3.3.4\816ab4ccd364350e3d0b5c1d53c2e5302a49eae6\spring-boot-starter-json-3.3.4.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-tomcat\3.3.4\7e552e904d54a0bd3f2ac8666e3344caa799a181\spring-boot-starter-tomcat-3.3.4.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework\spring-webmvc\6.1.13\ca5f025b133c69026bfe01daa6132d0ac2e4a59f\spring-webmvc-6.1.13.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework\spring-web\6.1.13\e4028dbbc4ae1fb4bfd3257c53302956d7687b66\spring-web-6.1.13.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-autoconfigure\3.3.4\979234a0f3035fe60d5e505018789f98a7ec7ee3\spring-boot-autoconfigure-3.3.4.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot\3.3.4\f06c6950aa5766b63328e821641f5c7d71be819d\spring-boot-3.3.4.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework.boot\spring-boot-starter-logging\3.3.4\c83073c0f5574b2146695ab716bcef3d6baa45e6\spring-boot-starter-logging-3.3.4.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\jakarta.annotation\jakarta.annotation-api\2.1.1\48b9bda22b091b1f48b13af03fe36db3be6e1ae3\jakarta.annotation-api-2.1.1.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework\spring-core\6.1.13\ddbd765408d2665f47017c8f05a7682012f91da3\spring-core-6.1.13.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.yaml\snakeyaml\2.2\3af797a25458550a16bf89acc8e4ab2b7f2bfce0\snakeyaml-2.2.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.thymeleaf\thymeleaf\3.1.2.RELEASE\273997509a4c7aef86cee0521750140c587d9be2\thymeleaf-3.1.2.RELEASE.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.16\172931663a09a1fa515567af5fbef00897d3c04\slf4j-api-2.0.16.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.17.2\267b85e9ba2892a37be6d80aa9ca1438a0d8c210\jackson-datatype-jsr310-2.17.2.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.module\jackson-module-parameter-names\2.17.2\d27b9f95ccce98984c1ba58d61c5a9c072b1ad95\jackson-module-parameter-names-2.17.2.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.17.2\efd3dd0e1d0db8bc72abbe71c15e697bb83b4b45\jackson-datatype-jdk8-2.17.2.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.17.2\e6deb029e5901e027c129341fac39e515066b68c\jackson-databind-2.17.2.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-websocket\10.1.30\b8cc73d6878688d5afb8fb78c3f9ea1bc3e5e6cf\tomcat-embed-websocket-10.1.30.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-core\10.1.30\852ff3547f179175feaff39c443e9b980ec2cc2\tomcat-embed-core-10.1.30.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.apache.tomcat.embed\tomcat-embed-el\10.1.30\432b176aa50de87c3bbda99b0fe85523abfd1382\tomcat-embed-el-10.1.30.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework\spring-context\6.1.13\d5163ddae069c5d78c841cd3a60c4db25bf16401\spring-context-6.1.13.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework\spring-aop\6.1.13\ad2c631e1717fdc6d91d56c06d4fd61e0215c19a\spring-aop-6.1.13.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework\spring-beans\6.1.13\90bbee6278b46b145e64e5ae29316bdd459c6826\spring-beans-6.1.13.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework\spring-expression\6.1.13\be30254712ca0549cbd539ba05c57064917253f3\spring-expression-6.1.13.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\io.micrometer\micrometer-observation\1.13.4\2673c9b181ab2512002b23b7ad0f1dd02212696c\micrometer-observation-1.13.4.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-classic\1.5.8\229bb1ef6b14dfbf74ff443af9097d836dc5f0dd\logback-classic-1.5.8.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-to-slf4j\2.23.1\425ad1eb8a39904d2830e907a324e956fb456520\log4j-to-slf4j-2.23.1.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.slf4j\jul-to-slf4j\2.0.16\6d57da3e961daac65bcca0dd3def6cd11e48a24a\jul-to-slf4j-2.0.16.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.springframework\spring-jcl\6.1.13\37291ff008a66a9dbf2c98e11bd468cfadaa7ebc\spring-jcl-6.1.13.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.attoparser\attoparser\2.0.7.RELEASE\e5d0e988d9124139d645bb5872b24dfa23e283cc\attoparser-2.0.7.RELEASE.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.unbescape\unbescape\1.1.6.RELEASE\7b90360afb2b860e09e8347112800d12c12b2a13\unbescape-1.1.6.RELEASE.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.17.2\147b7b9412ffff24339f8aba080b292448e08698\jackson-annotations-2.17.2.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.17.2\969a35cb35c86512acbadcdbbbfb044c877db814\jackson-core-2.17.2.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\io.micrometer\micrometer-commons\1.13.4\edcf69518a4c382c48e19c7fb7d4aedfb115c0c3\micrometer-commons-1.13.4.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\ch.qos.logback\logback-core\1.5.8\3fce599197de3b6f387cc9bee412ead2b4994a46\logback-core-1.5.8.jar;C:\Users\user\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.23.1\9c15c29c526d9c6783049c0a77722693c66706e1\log4j-api-2.23.1.jar</td>
+        </tr>
+        <tr>
+            <td>java.vm.vendor</td>
+            <td>Oracle Corporation</td>
+        </tr>
+        <tr>
+            <td>sun.arch.data.model</td>
+            <td>64</td>
+        </tr>
+        <tr>
+            <td>user.variant</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>java.vendor.url</td>
+            <td>https://java.oracle.com/</td>
+        </tr>
+        <tr>
+            <td>java.vm.specification.version</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>os.name</td>
+            <td>Windows 11</td>
+        </tr>
+        <tr>
+            <td>sun.java.launcher</td>
+            <td>SUN_STANDARD</td>
+        </tr>
+        <tr>
+            <td>user.country</td>
+            <td>KR</td>
+        </tr>
+        <tr>
+            <td>sun.boot.library.path</td>
+            <td>C:\Program Files\Java\jdk-23\bin</td>
+        </tr>
+        <tr>
+            <td>sun.java.command</td>
+            <td>study.backend.studying.src.zbmissions.PracticePropertyHtml</td>
+        </tr>
+        <tr>
+            <td>jdk.debug</td>
+            <td>release</td>
+        </tr>
+        <tr>
+            <td>sun.cpu.endian</td>
+            <td>little</td>
+        </tr>
+        <tr>
+            <td>user.home</td>
+            <td>C:\Users\user</td>
+        </tr>
+        <tr>
+            <td>user.language</td>
+            <td>ko</td>
+        </tr>
+        <tr>
+            <td>sun.stderr.encoding</td>
+            <td>UTF-8</td>
+        </tr>
+        <tr>
+            <td>java.specification.vendor</td>
+            <td>Oracle Corporation</td>
+        </tr>
+        <tr>
+            <td>java.version.date</td>
+            <td>2024-09-17</td>
+        </tr>
+        <tr>
+            <td>java.home</td>
+            <td>C:\Program Files\Java\jdk-23</td>
+        </tr>
+        <tr>
+            <td>file.separator</td>
+            <td>\</td>
+        </tr>
+        <tr>
+            <td>java.vm.compressedOopsMode</td>
+            <td>Zero based</td>
+        </tr>
+        <tr>
+            <td>sun.stdout.encoding</td>
+            <td>UTF-8</td>
+        </tr>
+        <tr>
+            <td>line.separator</td>
+            <td>
+</td>
+        </tr>
+        <tr>
+            <td>java.vm.specification.vendor</td>
+            <td>Oracle Corporation</td>
+        </tr>
+        <tr>
+            <td>java.specification.name</td>
+            <td>Java Platform API Specification</td>
+        </tr>
+        <tr>
+            <td>user.script</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>sun.management.compiler</td>
+            <td>HotSpot 64-Bit Tiered Compilers</td>
+        </tr>
+        <tr>
+            <td>java.runtime.version</td>
+            <td>23+37-2369</td>
+        </tr>
+        <tr>
+            <td>user.name</td>
+            <td>user</td>
+        </tr>
+        <tr>
+            <td>stdout.encoding</td>
+            <td>UTF-8</td>
+        </tr>
+        <tr>
+            <td>path.separator</td>
+            <td>;</td>
+        </tr>
+        <tr>
+            <td>os.version</td>
+            <td>10.0</td>
+        </tr>
+        <tr>
+            <td>java.runtime.name</td>
+            <td>Java(TM) SE Runtime Environment</td>
+        </tr>
+        <tr>
+            <td>file.encoding</td>
+            <td>UTF-8</td>
+        </tr>
+        <tr>
+            <td>java.vm.name</td>
+            <td>Java HotSpot(TM) 64-Bit Server VM</td>
+        </tr>
+        <tr>
+            <td>java.vendor.url.bug</td>
+            <td>https://bugreport.java.com/bugreport/</td>
+        </tr>
+        <tr>
+            <td>java.io.tmpdir</td>
+            <td>C:\Users\user\AppData\Local\Temp\</td>
+        </tr>
+        <tr>
+            <td>java.version</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>user.dir</td>
+            <td>C:\Users\user\Desktop\spb\demo\demo</td>
+        </tr>
+        <tr>
+            <td>os.arch</td>
+            <td>amd64</td>
+        </tr>
+        <tr>
+            <td>java.vm.specification.name</td>
+            <td>Java Virtual Machine Specification</td>
+        </tr>
+        <tr>
+            <td>sun.os.patch.level</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>native.encoding</td>
+            <td>MS949</td>
+        </tr>
+        <tr>
+            <td>java.library.path</td>
+            <td>C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;c:\Users\user\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files (x86)\NAT Service;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Users\user\AppData\Local\afreeca;C:\Users\user\AppData\Roaming\npm;c:\Users\user\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Bandizip\;C:\Program Files\PowerShell\7\;C:\Program Files\Java\jdk-22\bin;C:\Python312\Scripts\;C:\Python312\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Local\afreeca;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.3\bin;;C:\Users\user\AppData\Local\SOOP;.</td>
+        </tr>
+        <tr>
+            <td>java.vm.info</td>
+            <td>mixed mode, sharing</td>
+        </tr>
+        <tr>
+            <td>stderr.encoding</td>
+            <td>UTF-8</td>
+        </tr>
+        <tr>
+            <td>java.vendor</td>
+            <td>Oracle Corporation</td>
+        </tr>
+        <tr>
+            <td>java.vm.version</td>
+            <td>23+37-2369</td>
+        </tr>
+        <tr>
+            <td>sun.io.unicode.encoding</td>
+            <td>UnicodeLittle</td>
+        </tr>
+        <tr>
+            <td>java.class.version</td>
+            <td>67.0</td>
+        </tr>
+    </table>
+</body>
+</html>
